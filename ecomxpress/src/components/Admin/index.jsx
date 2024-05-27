@@ -40,8 +40,8 @@ const Admin = () => {
 
                                 <div className='absolute top-18 right-0 bg-white p-6 w-[200px] shadow-lg'>
                                     <div>
-                                        <h1 className='text-lg font-semibold'>Lovely</h1>
-                                        <p className='text-gray-2000'> Love@gamil.com</p>
+                                        <h1 className='text-lg font-semibold'>Naurin </h1>
+                                        <p className='text-gray-2000'> Naurin@gamil.com</p>
                                         <div className='h-px bg-gray-200 my-4'>
                                             <button>
                                                 <i className="ri-logout-circle-r-line mr-2"></i>
