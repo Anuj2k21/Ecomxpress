@@ -1,16 +1,15 @@
 import React from 'react'
 import Layout from './Layout'
 
-
-const Product = () => {
+const Settings = () => {
     return (
         <Layout>
             <div>
-                <h1>  Welcome to Product page</h1>
+                <h1>Settings</h1>
             </div>
-
         </Layout>
+
     )
 }
 
-export default Product
+export default Settings

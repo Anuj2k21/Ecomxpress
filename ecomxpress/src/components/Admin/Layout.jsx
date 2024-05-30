@@ -17,6 +17,12 @@ const Layout = ({ children }) => {
             link: '/admin/dashboard'
         },
         {
+            label: 'Customers',
+            icon: <i className='ri-user-line mr-2'></i>,
+            link: '/admin/customers'
+
+        },
+        {
             label: 'Products',
             icon: <i className='ri-shopping-cart-line mr-2'></i>,
             link: '/admin/products'
@@ -38,11 +44,7 @@ const Layout = ({ children }) => {
             icon: <i className='ri-settings-3-line mr-2'></i>,
             link: '/admin/settings'
         },
-        {
-            label: 'Logout',
-            icon: <i className='ri-logout-circle-r-line mr-2'></i>,
-            link: '/admin/logout'
-        },
+
     ]
 
     return (
@@ -76,6 +78,12 @@ const Layout = ({ children }) => {
                                 </Link>
                             ))
                         }
+                        <button className='text-gray-50 text-[17.5] text-left px-4 py-2 hover:bg-rose-500 hover:text-white'
+                        >
+
+                            <i className='ri-logout-circle-r-line mr-2'></i>
+                            Logout
+                        </button>
                     </div>
 
 
@@ -163,6 +171,12 @@ const Layout = ({ children }) => {
                                 </Link>
                             ))
                         }
+                        <button className='text-gray-50 text-[17.5] text-left px-4 py-2 hover:bg-rose-500 hover:text-white'
+                        >
+
+                            <i className='ri-logout-circle-r-line mr-2'></i>
+                            Logout
+                        </button>
                     </div>
 
 
